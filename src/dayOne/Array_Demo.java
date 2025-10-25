@@ -85,25 +85,25 @@ public class Array_Demo
 {
 	public static void main(String[] args)
 	{
-//		Array arr=new Array(5);
-//		arr.add(1);
-//		arr.add(2);
-//		arr.add(3);
-//		arr.add(4);
-//		arr.add(5);
-//		arr.print();
-//		arr.set(4,9);
-//		arr.print();
-//		arr.add(6);
-//		arr.print();
-//		arr.remove(5);
-//		arr.set(4,5);
-//		arr.print();
-//		
-//		int num=arr.getElement(2);
-//		System.out.println(num);
-//		
-//		int len=arr.getSize();
-//		System.out.println(len);
+		Array arr=new Array(5);
+		arr.add(1);
+		arr.add(2);
+		arr.add(3);
+		arr.add(4);
+		arr.add(5);
+		arr.print();
+		arr.set(4,9);
+		arr.print();
+		arr.add(6);
+		arr.print();
+		arr.remove(5);
+		arr.set(4,5);
+		arr.print();
+		
+		int num=arr.getElement(2);
+		System.out.println(num);
+		
+		int len=arr.getSize();
+		System.out.println(len);
 	}
 }
